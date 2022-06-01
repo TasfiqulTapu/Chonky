@@ -9,7 +9,8 @@ module.exports = {
   rateLimit: 15000,
 	async execute(message, args, client) {
    
-    // command rate limit let timeout = client.userCMPRatelimits.get(message.author.id);
+    // command rate limit 
+    let timeout = client.userCMPRatelimits.get(message.author.id);
     if(timeout - Date.now() > this.rateLimit * 2) return;
     if( timeout && timeout > Date.now()){
     client.userCMPRatelimits.set(message.author.id, timeout + this.rateLimit * 0.25);
