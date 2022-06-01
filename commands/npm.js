@@ -54,7 +54,7 @@ module.exports = {
             { name: "Source", value: data["publish"]["pretty"] },
             { name: "Install", value: data["install"]["pretty"] }
           )
-          .setFooter("Data from packagephobia.com");
+          .setFooter({text:"Data from packagephobia.com"});
         message.channel.send({ embeds: [embed] });
       } else {
         message.channel.send("Unknown version");

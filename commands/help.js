@@ -24,7 +24,7 @@ module.exports = {
         { name: "compare", value: "Compare 2 npm packages" },
         { name: "info", value: "Bot info." }
       )
-      .setFooter("hello :)");
+      .setFooter({text:"hello :)"});
     message.channel.send({ embeds: [embed] });
   },
 };
