@@ -1,0 +1,31 @@
+{
+  "name": "Chonky",
+  "version": "1.0.1",
+  "description": "A simple discord bot for comparing npm packages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "git+https://github.com/TasfiqulTapu/Chonky.git"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TasfiqulTapu/Chonky/issues"
+  },
+  "homepage": "https://github.com/TasfiqulTapu/Chonky#readme",
+  "devDependencies": {
+    "node": "^16.9.1"
+  },
+  "author": ""
+}
