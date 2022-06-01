@@ -5,7 +5,7 @@ const { MessageEmbed } = require("discord.js");
 module.exports = {
   name: "npm",
   aliases: ["package", "search"],
-  rateLimit: 15000,
+  rateLimit: 12000,
   async execute(message, args, client) {
     // command ratelimit
     let timeout = client.userNPMRatelimits.get(message.author.id);
